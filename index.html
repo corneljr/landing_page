@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Subzie</title>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<link href='http://fonts.googleapis.com/css?family=Muli:300,400' rel='stylesheet' type='text/css'>
+	<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<img src="images/background.png" alt="background image subzie" class='subzie-logo' align='bottom'>
+	<div class='text-container'>
+		<h3>
+			The app recreational sports has been waiting for.
+		</h3>
+		<br>
+		<p>Subzie connects sports players with recreational sports teams in need of a sub. Teams and players can find matches within seconds. Subzie eliminates the risk of cancelled games, and allows players who can't commit weekly to still be able to play the sports they love.</p>
+		<br>
+		<a href="#" data-toggle='modal' data-target='#modal' class='learn-more'>Learn more</a>
+	</div>
+	<div class='update-form'>
+		<form action="http://forms.brace.io/your@email.com" method='POST' class='form'>
+			<input type="email" class='email-input' placeholder='Toss us your email to be notified of our launch'>
+			<input type="submit" class='submit btn btn-primary'>
+			<input type="hidden" name="_next" value="localhost:3000" />
+			<input type="hidden" name="_subject" value="New Sign Up!" />
+		</form>
+	</div>
+	<div class='social'>
+		<a href="#"><i class="fa fa-facebook"></i></a>
+		<a href="https://www.linkedin.com/company/subzie"><i class="fa fa-linkedin-square"></i></a>
+		<a href="https://twitter.com/subzieapp"><i class="fa fa-twitter"></i></a>
+	</div>
+
+	<div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	  <div class="modal-dialog">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+	        <h4 class="modal-title" id="myModalLabel" style='color:black;'>Subzie</h4>
+	      </div>
+	      <div class="modal-body">
+	      	<p style='color:black;'>Subzie is a digital solution connecting sports players who want to play an organized league game with recreational sports teams who are short players for an upcoming game.  Players are alerted of games that are in need of a substitute player based on predefined matching algorithms. Players then choose games from the matching games to their preferences and ‘Sub-In’ to join. Players who ‘Sub-In’ pay a drop-in fee based on the average cost of playing a game of that sport in the geographic region of the game. To reach a wide audience and hit the critical mass necessary to ensure games are always being filled, Subzie has partnered with multiple sports leagues who provide Subzie with their league database in return for potential new players trying out the league, insurance that games are not being canceled due to lack of players, and additional revenue from ‘Subs’.  Keep connected for the latest Subzie updates!</p>
+	      </div>
+	      <div class="modal-footer">
+	        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+</body>
+</html>
